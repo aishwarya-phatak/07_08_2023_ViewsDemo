@@ -11,15 +11,15 @@ class ViewController: UIViewController{
     
     @IBOutlet weak var productTableView: UITableView!
     
+    var foodItems : [String] = ["Modak", "Laddu", "Samosa","Barfi"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
+       print(foodItems.count)
         
         
         
         
     }
-    
 }
